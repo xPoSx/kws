@@ -1,6 +1,6 @@
 import torch.nn as nn
 import torch
-from scripts.base_config import TaskConfig
+from src.baseline_config import TaskConfig
 
 
 class Attention(nn.Module):

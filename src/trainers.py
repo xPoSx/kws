@@ -97,4 +97,3 @@ def validation(model, loader, log_melspec, device):
     # area under FA/FR curve for whole loader
     au_fa_fr = get_au_fa_fr(torch.cat(all_probs, dim=0).cpu(), all_labels)
     return au_fa_fr
-
